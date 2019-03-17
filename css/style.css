@@ -1,0 +1,174 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	font-family: 'Montserrat', sans-serif;
+
+}
+
+li{
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+}
+.wrapper{
+	width: 80%;
+	margin:0 auto;
+}
+.header{
+	display:flex;
+	padding:25px 0 20px;
+	align-items: center;
+	justify-content: space-between;
+	
+}
+.nav{
+	display: flex;
+	margin:0 auto;
+}
+.nav li{
+
+	margin:0 0 0 40px;
+	
+}
+.nav__btn{
+	display:none;
+}
+
+.nav a{
+	color:#7e7e7e;
+	font-size: 20px;
+}
+nav a:hover{
+	padding-bottom:28px;
+	border-bottom: 3px solid #5094f2;
+}
+.slider{
+	display:flex;
+	justify-content:center;
+	align-items: center;
+	flex-direction: column;
+	height: 475px;
+	background: url(../img/banner1.png) no-repeat center top /cover;
+	margin:0 auto;
+}
+.slider__info{
+	margin-left: 510px;
+}
+
+.slider__info p span{
+	font-size: 42px;
+	font-weight: 300;
+	line-height: 44.42px;
+	text-align: left;
+
+	
+}
+.slider__info p{
+	color:#e1e4e6;
+	font-size: 26.35px;
+	font-weight: 300;
+	line-height: 44.42px;
+	text-align: left;
+}
+.slider__btn{
+	margin-top: 34px;
+	margin-left: 250px;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	width: 172px;
+	height: 41px;
+	background-color: #5094f2;
+
+}
+.slider__btn img{
+ padding-right: 11px;
+
+}
+.slider__btn a{ 
+	text-align: left;
+	color: #ffffff;
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 44.42px;
+}
+
+.preferences{
+	margin-top: 73px;
+	display: flex;
+ 	justify-content: space-between;
+	align-items: center;
+	text-align: center;
+}
+
+
+.preferences p{	
+	font-weight: 400;
+	font-size: 14px;
+	color: #909090;
+}
+.preferences p span{
+	margin-top: 28px;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 44.42px;
+	color: #5094f2;	
+}
+
+.cart{
+	display:flex;
+	flex-direction: row;
+	align-items:center;
+	margin-bottom: 62px;
+}
+
+
+.cart__title {
+	color: #6f7173;
+	font-size: 42px;
+	font-weight: 400;
+	line-height: 44.42px;
+	margin-top: 90px;
+}
+
+.cart__img{
+	width: 371px;
+	height: 279px;
+	margin-top:33px;
+
+}
+.cart__info{
+	margin-top: 146px;
+	margin-left: 82px;
+	color: #909090;
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 36px;
+
+}
+.cart__info span{
+
+	font-size: 26px;
+	font-weight: 400;
+	line-height: 44.42px;
+	color: #6f7173;
+}
+
+.footer{
+	display: flex;
+	justify-content: center;
+	align-items:center;
+	border-top: 1px solid #e6e6e6;
+}
+.footer p{
+	padding:33px 0 44px 0;
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 36px;
+	color: #909090;
+}
+
+
